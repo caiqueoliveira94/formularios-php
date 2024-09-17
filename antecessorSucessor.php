@@ -9,7 +9,7 @@
 
 <body>
     <h3>Antecessor e Sucessor de um número</h3>
-    <form name="boasVindas" method="get" action="antecessorSucessor.php">
+    <form method="get" action="antecessorSucessor.php">
         <table>
             <tr>
                 <td><label for="numero">Digite um número:</label></td>

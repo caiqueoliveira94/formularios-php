@@ -9,7 +9,7 @@
 
 <body>
     <h3>Funcionário x Salário</h3>
-    <form name="boasVindas" method="get" action="salario.php">
+    <form method="get" action="salario.php">
         <table>
             <tr>
                 <td><label for="funcionario">Funcionário:</label></td>

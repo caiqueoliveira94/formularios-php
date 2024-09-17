@@ -9,7 +9,7 @@
 
 <body>
     <h3>Calcular números inteiros</h3>
-    <form name="boasVindas" method="get" action="calculoInteiro.php">
+    <form method="get" action="calculoInteiro.php">
         <table>
             <tr>
                 <td><label for="primeiroNumero">Digite um valor:</label></td>
@@ -20,7 +20,7 @@
                 <td><input name="segundoNumero" type="number"></td>
             </tr>
         </table>
-        <button type="submit">Enviar</button>
+        <button type="submit">Calcular</button>
     </form>
     <?php
     if (isset($_GET['primeiroNumero']) && isset($_GET['segundoNumero'])) {

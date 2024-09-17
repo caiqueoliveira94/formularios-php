@@ -9,7 +9,7 @@
 
 <body>
     <h3>Metros para outras unidades</h3>
-    <form name="boasVindas" method="get" action="areaPintura.php">
+    <form method="get" action="areaPintura.php">
         <table>
             <tr>
                 <td><label for="largura">Informe a largura da parede:</label></td>
@@ -20,7 +20,7 @@
                 <td><input name="altura" type="text" placeholder="Ex: 2.5"></td>
             </tr>
         </table>
-        <td><button type="submit">Enviar</button></td>
+        <td><button type="submit">Calcular</button></td>
     </form>
     <?php
 

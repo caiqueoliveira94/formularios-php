@@ -9,12 +9,12 @@
 
 <body>
     <h3>Metros para outras unidades</h3>
-    <form name="boasVindas" method="get" action="comprarDolares.php">
+    <form method="get" action="comprarDolares.php">
         <table>
             <tr>
                 <td><label for="numero">Quanto dinheiro você tem em reais:</label></td>
                 <td><input name="numero" type="text" placeholder="Ex: 100"></td>
-                <td><button type="submit">Enviar</button></td>
+                <td><button type="submit">Calcular</button></td>
             </tr>
         </table>
     </form>

@@ -9,7 +9,7 @@
 
 <body>
     <h3>Boas vindas</h3>
-    <form name="boasVindas" method="get" action="boasVindas.php">
+    <form method="get" action="boasVindas.php">
         <table>
             <tr>
                 <td><label for="nome">Qual é o seu nome?</label></td>

@@ -9,7 +9,7 @@
 
 <body>
     <h3>Metros para outras unidades</h3>
-    <form name="boasVindas" method="get" action="transformarMetros.php">
+    <form method="get" action="transformarMetros.php">
         <table>
             <tr>
                 <td><label for="numero">Digite uma distância em metros:</label></td>

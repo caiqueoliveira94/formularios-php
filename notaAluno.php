@@ -9,7 +9,7 @@
 
 <body>
     <h3>Calcular média das notas do aluno</h3>
-    <form name="boasVindas" method="get" action="notaAluno.php">
+    <form method="get" action="notaAluno.php">
         <table>
             <tr>
                 <td><label for="primeiraNota">Nota 1:</label></td>

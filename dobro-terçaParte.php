@@ -9,12 +9,12 @@
 
 <body>
     <h3>Antecessor e Sucessor de um número</h3>
-    <form name="boasVindas" method="get" action="dobro-terçaParte.php">
+    <form method="get" action="dobro-terçaParte.php">
         <table>
             <tr>
                 <td><label for="numero">Digite um número:</label></td>
                 <td><input name="numero" type="text" placeholder="Ex: 3.5"></td>
-                <td><button type="submit">Enviar</button></td>
+                <td><button type="submit">Calcular</button></td>
             </tr>
         </table>
     </form>
