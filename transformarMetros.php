@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 8</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 
     if (isset($_GET['numero'])) {
         $numero = $_GET['numero'];
-        echo "Adistância de $numero metros, corresponte a:";
+        echo "<p>Adistância de $numero metros, corresponte a:</p>";
         echo "<p>" . $numero / 1000 . "Km</p>";
         echo "<p>" . $numero / 100 . "Hm</p>";
         echo "<p>" . $numero / 10 . "Dam</p>";
@@ -31,6 +31,7 @@
         echo "<p>" . $numero * 1000 . "mm</p>";
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

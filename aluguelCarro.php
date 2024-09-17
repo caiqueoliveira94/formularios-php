@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 14</title>
 </head>
 
 <body>
-    <h3>Aluguel de carros</h3>
+    <h3>Aluguel de carros - 90 reais por km e </h3>
     <form method="get" action="aluguelCarro.php">
         <table>
             <tr>
@@ -34,6 +34,7 @@
         echo "O custo total do aluguel é: R$ " . number_format($custo, 2, ',', '.');
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

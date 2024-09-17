@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 10</title>
 </head>
 
 <body>
-    <h3>Metros para outras unidades</h3>
+    <h3>Tinta nescessária para pintar a parede</h3>
     <form method="get" action="areaPintura.php">
         <table>
             <tr>
@@ -27,11 +27,11 @@
     if (isset($_GET['largura']) && isset($_GET['altura'])) {
         $area = $_GET['largura'] * $_GET['altura'];
         $tinta = $area / 2;
-        echo "Area total da parede: $area m²";
-        echo '<br>';
-        echo "Você precisará de $tinta litros de tinta para a pintura.";      
+        echo "<p>Area total da parede: $area m²</p>";
+        echo "<p>Você precisará de $tinta litros de tinta para a pintura.</p>";      
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

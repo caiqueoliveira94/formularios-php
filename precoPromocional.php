@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 12</title>
 </head>
 
 <body>
@@ -27,6 +27,7 @@
         echo "<p>O produto de valor $valor reais, vai custar " . number_format($valorDesconto, 2, ',', '.') . " reais com 5% de desconto.</p>";
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

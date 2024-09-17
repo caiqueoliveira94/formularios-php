@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 13</title>
 </head>
 
 <body>
@@ -27,6 +27,7 @@
         echo "<p>Você terá um aumento de " . number_format($aumento, 2, ',', '.') . " reais, seu novo salário será " . number_format($valorAumento, 2, ',', '.') . " reais.</p>";
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

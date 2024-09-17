@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 6</title>
 </head>
 
 <body>
@@ -27,6 +27,7 @@
         echo "O sucessor de $numero é " . ($numero + 1);
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

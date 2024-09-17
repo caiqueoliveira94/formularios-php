@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Desafio</title>
 </head>
 
 <body>
@@ -38,6 +38,7 @@
         echo "<p>O fumante perdeu aproximadamente " . number_format($diasPerdidos, 2, ',', '.') . " dias de vida.</p>";
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

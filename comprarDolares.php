@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 9</title>
 </head>
 
 <body>
-    <h3>Metros para outras unidades</h3>
+    <h3>Comprar dolares com reais - valor do dolar: R$ 4,95</h3>
     <form method="get" action="comprarDolares.php">
         <table>
             <tr>
@@ -19,13 +19,13 @@
         </table>
     </form>
     <?php
-
     if (isset($_GET['numero'])) {
         $numero = $_GET['numero'];
         $dolar = number_format($numero / 4.95, 2, ',', '.');
-        echo "Com $numero reais você pode comprar $dolar dolares";       
+        echo "<p>Com $numero reais você pode comprar $dolar dolares</p>";
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>

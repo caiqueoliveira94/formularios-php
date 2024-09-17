@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios php</title>
+    <title>Exercício 15</title>
 </head>
 
 <body>
-    <h3>Salário total</h3>
+    <h3>Salário total - 25 reais / hora</h3>
     <form method="get" action="diasTrabalhados.php">
         <table>
             <tr>
@@ -20,16 +20,17 @@
     </form>
     <?php
     if (isset($_GET['dias'])) {
-        
+
         $dias = $_GET['dias'];
 
         $horasDia = 8;
         $valorHora = 25;
 
         $salario = $dias * $horasDia * $valorHora;
-        echo "O salário total do funcionário é: R$ " . number_format($salario, 2, ',', '.');
+        echo "<p>O salário total do funcionário é: R$ " . number_format($salario, 2, ',', '.') . ".</p>";
     }
     ?>
+    <p><a href="index.php">Voltar</a></p>
 </body>
 
 </html>
